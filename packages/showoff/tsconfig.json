@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/temp",
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"target": "es2022",
+		"types": ["jest", "node"],
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		// Stricter Typechecking Options
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		// Style Options
+		"noImplicitReturns": true,
+		"noImplicitOverride": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitAny": true,
+		// Recommended Options
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"moduleDetection": "force",
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitThis": true,
+		"resolveJsonModule": true,
+		"lib": ["ESNext", "DOM"],
+		"jsx": "react-jsx"
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"]
+}
